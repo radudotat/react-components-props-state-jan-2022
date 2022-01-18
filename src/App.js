@@ -1,10 +1,14 @@
 import './App.css';
+import ClassComponentsIntoFunctionComponents from './ClassComponentsIntoFunctionComponents';
+import ControlledComponentsAndForms from './ControlledComponentsAndForms';
+import LiftingStateUpAndConditionalRendering from './LiftingStateUpAndConditionalRendering';
 import MappingOverArrays from './MappingOverArrays';
 import PropsDestructuring from './PropsDestructuring';
 import PropsExample from './PropsExample';
 import StateExampleCounter from './StateExampleCounter';
 import StateExampleForm from './StateExampleForm';
 import StateNotSynchronous from './StateNotSynchronous';
+import StylePropVsCSSmodulesFilesVsCSSinJS from './StylePropVsCSSmodulesFilesVsCSSinJS';
 
 function App() {
   const phone = 1231232;
@@ -30,6 +34,23 @@ function App() {
       <h1>Mapping over arrays</h1>
       <MappingOverArrays />
 
+      <h1>Lifting state up and conditional rendering</h1>
+      <LiftingStateUpAndConditionalRendering />
+
+      <h1>Controlled Components and forms</h1>
+      <ControlledComponentsAndForms />
+
+      <h1>Class Components into Function Components</h1>
+      <ClassComponentsIntoFunctionComponents user={undefined} />
+
+      <h1>Style prop vs CSS modules files vs CSS-in-JS</h1>
+      <StylePropVsCSSmodulesFilesVsCSSinJS />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
