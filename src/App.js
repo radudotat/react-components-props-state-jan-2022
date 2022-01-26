@@ -1,10 +1,13 @@
 import './App.css';
 import ClassComponentsIntoFunctionComponents from './ClassComponentsIntoFunctionComponents';
 import ControlledComponentsAndForms from './ControlledComponentsAndForms';
+import HardCodedUserList from './HardCodedUserList';
 import LiftingStateUpAndConditionalRendering from './LiftingStateUpAndConditionalRendering';
 import MappingOverArrays from './MappingOverArrays';
 import PropsDestructuring from './PropsDestructuring';
 import PropsExample from './PropsExample';
+import RandomUserList from './RandomUserList';
+import ReactAntipatterns from './ReactAntipatterns';
 import StateExampleCounter from './StateExampleCounter';
 import StateExampleForm from './StateExampleForm';
 import StateNotSynchronous from './StateNotSynchronous';
@@ -45,6 +48,15 @@ function App() {
 
       <h1>Style prop vs CSS modules files vs CSS-in-JS</h1>
       <StylePropVsCSSmodulesFilesVsCSSinJS />
+
+      <h1>React Antipatterns</h1>
+      <ReactAntipatterns />
+
+      <h1>Hard coded User List</h1>
+      <HardCodedUserList />
+
+      <h1>Random User List</h1>
+      <RandomUserList />
 
       <br />
       <br />
