@@ -5,7 +5,7 @@ export default function ReactAntipatterns() {
   const [isChecked, setIsChecked] = useState(false);
 
   return (
-    <div className={'myDiv'}>
+    <div>
       {JSON.stringify(isChecked)} {typeof isChecked}
       <div>
         Hello

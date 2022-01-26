@@ -118,9 +118,18 @@ export default function HardCodedUserList() {
           // 1. copy
           const userListCopy = [...userList];
           // 2. update
+          // 2.1 using array.pop()
           userListCopy.pop();
+          // 2.2 using filter
+          // const arrayUpdated = userListCopy.filter((singleUser, index) => {
+          // let pass all the users but the last
+          //   return index !== userListCopy.length - 1;
+          // });
           // 3. update state with the copy
+          // updating for 2.1
           setUserList(userListCopy);
+          // updating for 2.2
+          // setUserList(arrayUpdated);
         }}
       >
         Remove last user
