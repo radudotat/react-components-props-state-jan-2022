@@ -1,4 +1,5 @@
 import './App.css';
+import CheckBoxControlledComponentExample from './CheckBoxControlledComponentExample';
 import ChildrenProp from './ChildrenProp';
 import ClassComponentsIntoFunctionComponents from './ClassComponentsIntoFunctionComponents';
 import ControlledComponentsAndForms from './ControlledComponentsAndForms';
@@ -56,7 +57,10 @@ function App() {
       <h1>React Antipatterns</h1>
       <ReactAntipatterns />
 
-      <h1>Hard coded User List</h1>
+      <h1>CheckBox Controlled Component Example</h1>
+      <CheckBoxControlledComponentExample />
+
+      <h1>Hardcoded User List</h1>
       <HardCodedUserList />
 
       <h1>Random User List</h1>

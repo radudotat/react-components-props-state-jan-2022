@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function ReactAntipatterns() {
+export default function CheckBoxControlledComponentExample() {
   // 1. Create State variable that control from a boolean type
   const [isChecked, setIsChecked] = useState(false);
 
