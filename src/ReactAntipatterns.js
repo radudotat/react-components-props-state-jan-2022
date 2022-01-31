@@ -1,14 +1,8 @@
-import { useState } from 'react';
-
 export default function ReactAntipatterns() {
-  // 1. set State variable that control the input
-  const [isChecked, setIsChecked] = useState(false);
-
   return (
     <div>
-      {JSON.stringify(isChecked)} {typeof isChecked}
       <div>
-        Hello
+        Don't use document.querySelector (open file and read code for more info)
         <button
           onClick={() => {
             // BIG NO NO PLEASE USE STATE (useState hook)
@@ -19,13 +13,6 @@ export default function ReactAntipatterns() {
           click me
         </button>
       </div>
-      <form onSubmit={(e) => e.preventDefault()}>
-        <input
-          type="checkbox"
-          checked={isChecked}
-          onChange={(e) => setIsChecked(e.currentTarget.checked)}
-        />
-      </form>
     </div>
   );
 }
