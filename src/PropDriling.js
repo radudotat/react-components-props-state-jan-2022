@@ -8,11 +8,11 @@ function LevelThree(props) {
 }
 
 function LevelTwo(props) {
-  return <LevelThree username={props.username}></LevelThree>;
+  return <LevelThree username={props.username} />;
 }
 
 function LevelOne(props) {
-  return <LevelTwo username={props.username}></LevelTwo>;
+  return <LevelTwo username={props.username} />;
 }
 
 export default function PropDrilling() {
@@ -20,7 +20,7 @@ export default function PropDrilling() {
   return (
     <div>
       top component username: {username}
-      <LevelOne username={username}></LevelOne>
+      <LevelOne username={username} />
     </div>
   );
 }

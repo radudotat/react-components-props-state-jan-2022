@@ -130,7 +130,7 @@ export default function StateManagement() {
       <StateManagementUseReducer />
       <h2>XState</h2>
       <StateManagementXState />
-      {/*<h2>Immer / Valtio / etc</h2>
+      {/* <h2>Immer / Valtio / etc</h2>
       <StateManagementImmer /> */}
     </div>
   );
