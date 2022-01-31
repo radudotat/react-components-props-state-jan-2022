@@ -1,15 +1,19 @@
 import './App.css';
+import ChildrenProp from './ChildrenProp';
 import ClassComponentsIntoFunctionComponents from './ClassComponentsIntoFunctionComponents';
 import ControlledComponentsAndForms from './ControlledComponentsAndForms';
+import DerivingState from './DerivingState';
 import HardCodedUserList from './HardCodedUserList';
 import LiftingStateUpAndConditionalRendering from './LiftingStateUpAndConditionalRendering';
 import MappingOverArrays from './MappingOverArrays';
+import PropDrilling from './PropDriling';
 import PropsDestructuring from './PropsDestructuring';
 import PropsExample from './PropsExample';
 import RandomUserList from './RandomUserList';
 import ReactAntipatterns from './ReactAntipatterns';
 import StateExampleCounter from './StateExampleCounter';
 import StateExampleForm from './StateExampleForm';
+import StateManagement from './StateManagement';
 import StateNotSynchronous from './StateNotSynchronous';
 import StylePropVsCSSmodulesFilesVsCSSinJS from './StylePropVsCSSmodulesFilesVsCSSinJS';
 
@@ -58,6 +62,44 @@ function App() {
       <h1>Random User List</h1>
       <RandomUserList />
 
+      <h1>Deriving State</h1>
+      <DerivingState />
+
+      <h1>Prop Drilling</h1>
+      <PropDrilling />
+
+      <h1>...vs. Children Prop</h1>
+      <ChildrenProp />
+
+      <h1>State Management</h1>
+      <StateManagement />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
